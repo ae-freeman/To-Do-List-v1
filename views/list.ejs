@@ -2,6 +2,7 @@
 
   <div class="box" id="heading">
 
+<!-- The variable from the res.render items describe what variable will be used for listTitle -->
     <h1><%=listTitle%></h1>
 
   </div>
@@ -17,7 +18,7 @@
 
   <form class="item" action="/" method="post">
     <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
-    <button type="submit" name="list" value=<%= listTitle %>>+</button></button>
+    <button type="submit" name="list" value=<%= listTitle %>>+</button>
   </form>
 
 
